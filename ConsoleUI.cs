@@ -21,17 +21,17 @@ namespace CybersecurityAwarenessBot
         {
             //setting text color to cyan for the logo display
             Console.ForegroundColor = ConsoleColor.Cyan;
-            Console.WriteLine("====================================================");
+            Console.WriteLine("-----------------------------------------------------");
             Console.WriteLine("       CYBERSECURITY AWARENESS ASSISTANT");
-            Console.WriteLine("====================================================");
+            Console.WriteLine("-----------------------------------------------------");
             Console.WriteLine();
-            Console.WriteLine("              __________________");
-            Console.WriteLine("             |                  |");
-            Console.WriteLine("             |    CYBER SAFE    |");
-            Console.WriteLine("             |       [#]        |");
-            Console.WriteLine("             |__________________|");
+            Console.WriteLine("              __________________                    ");
+            Console.WriteLine("             |                  |                   ");
+            Console.WriteLine("             |    CYBER SAFE    |                   ");
+            Console.WriteLine("             |       [#]        |                   ");
+            Console.WriteLine("             |__________________|                   ");
             Console.WriteLine();
-            Console.WriteLine("====================================================");
+            Console.WriteLine("----------------------------------------------------");
             //resetting the console color back to default after displaying the logo
             Console.ResetColor();
             Console.WriteLine();

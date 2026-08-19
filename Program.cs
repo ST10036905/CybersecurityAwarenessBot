@@ -8,8 +8,8 @@ public class Program
 {
     public static void Main(string[] args)
     {
-        // Display a welcome message to the user calling from consoleUI class
-        ConsoleUI consoledata = new ConsoleUI();
-        consoledata.DisplayLogo();
+        // Starting up the chatbot application by creating an instance of the Chatbot class and calling startApp method.
+        Chatbot chatbot = new Chatbot();
+        chatbot.StartApp();
     }
 }//end of class
