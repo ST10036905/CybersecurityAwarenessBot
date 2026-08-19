@@ -11,5 +11,7 @@ public class Program
         // Starting up the chatbot application by creating an instance of the Chatbot class and calling startApp method.
         Chatbot chatbot = new Chatbot();
         chatbot.StartApp();
+        //calling method that initiates conversation with the user. 
+        chatbot.StartConversation();
     }
 }//end of class
