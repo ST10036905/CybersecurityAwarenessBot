@@ -12,6 +12,11 @@ namespace CybersecurityAwarenessBot
     internal class Chatbot
     {
         /// <summary>
+        /// constructor that initializes response handler.
+        /// </summary>
+        ResponseHandler responses = new ResponseHandler();
+
+        /// <summary>
         /// Creating a method called StartApp that will be used to start the application. 
         /// This method will be responsible for initializing the chatbot and starting the conversation with the user.
         /// </summary>
@@ -56,9 +61,18 @@ namespace CybersecurityAwarenessBot
             Console.WriteLine("-----------------------------------------------------------");
             Console.WriteLine(userName + "!" + " Welcome to your chatbot awareness assistant ---");
             Console.WriteLine("How can I assist you today?");
+
+            // Reading the user's question
             userInput = Console.ReadLine();
-            Console.WriteLine("You said: " + userInput);
+
+            // Sending the user's question to the ResponseHandler
+            string response = responses.GetResponse(userInput);
+
+            // Displaying the chatbot's response
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine("Bot: " + response);
             Console.ResetColor();
+
         }
 
     }
