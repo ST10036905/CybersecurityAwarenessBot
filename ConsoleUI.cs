@@ -22,7 +22,7 @@ namespace CybersecurityAwarenessBot
             //setting text color to cyan for the logo display
             Console.ForegroundColor = ConsoleColor.Cyan;
             Console.WriteLine("-----------------------------------------------------");
-            Console.WriteLine("       CYBERSECURITY AWARENESS ASSISTANT");
+            Console.WriteLine("       M&M CYBERSECURITY AWARENESS ASSISTANT         ");
             Console.WriteLine("-----------------------------------------------------");
             Console.WriteLine();
             Console.WriteLine("              __________________                    ");
