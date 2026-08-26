@@ -10,7 +10,11 @@ public class Program
     {
         // Starting up the chatbot application by creating an instance of the Chatbot class and calling startApp method.
         Chatbot chatbot = new Chatbot();
+        //calling an instance of the greetings class
+        VoiceGreeting speaker = new VoiceGreeting();
         chatbot.StartApp();
+        //adding the voice greeting audio to the application
+        speaker.PlayGreeting();
         //calling method that initiates conversation with the user. 
         chatbot.StartConversation();
     }
