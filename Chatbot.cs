@@ -47,14 +47,14 @@ namespace CybersecurityAwarenessBot
             string userInput;
 
             //prompting the user to enter their name and reading the input from the console
-            Console.WriteLine("----------------------------------------------------------");
             Console.ForegroundColor = ConsoleColor.DarkCyan;
+            Console.WriteLine("----------------------------------------------------------");
             Console.WriteLine("Please enter your name: ");
             userName = Console.ReadLine();
             Console.ResetColor();
             Console.ForegroundColor= ConsoleColor.DarkGreen;
-            Console.WriteLine("----------------------------------------------------------");
-            Console.WriteLine(userName ! + " Welcome to your chatbot awareness assistant.");
+            Console.WriteLine("-----------------------------------------------------------");
+            Console.WriteLine(userName + "!" + " Welcome to your chatbot awareness assistant ---");
             Console.WriteLine("How can I assist you today?");
             userInput = Console.ReadLine();
             Console.WriteLine("You said: " + userInput);
