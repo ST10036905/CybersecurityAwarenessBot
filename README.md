@@ -1,6 +1,6 @@
 # Cybersecurity Awareness Assistant
 
-A C# console-based chatbot developed as part of a Portfolio of Evidence (POE) to promote cybersecurity awareness and educate users about common online threats.
+A C# console-based chatbot to promote cybersecurity awareness and educate users about common online threats.
 
 ## Purpose
 
